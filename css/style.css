@@ -1,0 +1,44 @@
+body {
+  background-color: beige;
+  text-align: center;
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;  
+}
+
+img {
+  width: 35%;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(31, 46, 87);
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(31, 46, 87);
+}
+
+a {
+  background-color: rgb(31, 46, 87);
+  border-radius: 8px;
+  color: rgb(18, 120, 183);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: lightblue;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.centered-list {
+  list-style-position: inside; 
+  text-align: center;
+  padding-left: 0;
+}
