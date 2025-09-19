@@ -1,3 +1,10 @@
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+    justify-content: center;
+}
+
 body {
   background-color: beige;
   text-align: center;
