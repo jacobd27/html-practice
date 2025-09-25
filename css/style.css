@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: row;
   text-align: center;
-    justify-content: center;
+  justify-content: center;
+  gap: 18px;
 }
 
 body {
@@ -42,12 +43,12 @@ p {
 a {
   background-color: rgb(31, 46, 87);
   border-radius: 8px;
-  color: rgb(18, 120, 183);
+  color: rgb(115, 187, 232);
   padding: 15px 32px;
   text-align: center;
   text-decoration: lightblue;
   display: inline-block;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .centered-list {
@@ -82,4 +83,10 @@ h3 {
   text-align: center;
   display: inline-block;
   padding-left: 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
 }
